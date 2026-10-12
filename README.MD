@@ -2,17 +2,27 @@
 
 This library is a simple utility to calculate your grades.
 
-Runtime requirements:
+It supports three grade categories:
+- Assignments
+- Exams
+- Essays
+
+The calculator computes the weighted average of the grade categories and converts the final numerical grade to a letter grade.
+
+## Runtime requirements:
+
 Golang 1.24+
 
-Run unit tests:
+## Unit Tests
+
+To run unit tests:
 ```
-cd grade_calculator/
+cd grade-calculator/
 go test ./...
 ```
 
-Run unit tests with code coverage:
+To run unit tests with code coverage:
 ```
-cd grade_calculator/
+cd grade-calculator/
 go test -coverprofile=coverage.txt ./...
 ```
